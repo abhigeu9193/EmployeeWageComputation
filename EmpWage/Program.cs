@@ -1,8 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Employee Wage Computation Program");
-//int IS_FULL_TIME = 1;
-//int empCheck = random.Next(0, 2);
-/*if (empCheck == IS_FULL_TIME)
+UC-1
+  int IS_FULL_TIME = 1;
+  int empCheck = random.Next(0, 2);
+ if (empCheck == IS_FULL_TIME)
 
     Console.WriteLine("Employee is persent");
 
@@ -10,8 +11,8 @@ else
 
     Console.WriteLine("Employee is not persent");
     Console.ReadKey();
-*/
-/*
+
+UC-2
 int EMP_RATE_PER_HOUR = 60;
 int empHrs = 0;
 int empWage = 0;
@@ -26,8 +27,11 @@ else
 
 empWage = empHrs * EMP_RATE_PER_HOUR;
 Console.WriteLine("Emp Wage :" + empWage);
-Console.ReadKey();*/
-/*
+Console.ReadKey();
+
+
+<----UC-3-------->
+
 int IS_PART_TIME = 1;
 int IS_FULL_TIME = 5; ;
 int EMP_RATE_PER_HOUR = 20;
@@ -39,7 +43,7 @@ Random random = new Random();
 int empCheck = random.Next(0, 5);
 Console.WriteLine(value: empCheck);
 // here we check condition*/
-/*if (empCheck == IS_PART_TIME)
+if (empCheck == IS_PART_TIME)
 
     empHrs = 4;
 
@@ -55,6 +59,8 @@ else
 empWage = empHrs * EMP_RATE_PER_HOUR;
 Console.WriteLine("Emp Wage :" + empWage);
 Console.ReadKey();*/
+  
+    <------UC-4------>
 
 /*public const* int IS_PART_TIME = 1;
 /*public const int IS_FULL_NUMBER = 2;
